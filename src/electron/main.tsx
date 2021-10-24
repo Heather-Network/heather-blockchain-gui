@@ -413,7 +413,7 @@ if (!handleSquirrelEvent()) {
           {
             label: i18n._(/* i18n */ { id: 'Chat on KeyBase' }),
             click: () => {
-              openExternal('https://keybase.io/team/chia_network.public');
+              openExternal('https://discord.gg/v69FAmFDdm');
             },
           },
           {
