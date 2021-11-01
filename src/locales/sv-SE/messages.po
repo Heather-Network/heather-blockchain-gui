@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sv_SE\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: heather-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-09-17 17:39\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: heather-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sv-SE\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[Heather-Network.heather-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:78
@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(Valfritt)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Vill du utforska Chias block lite mer? Ta en titt på <0>Chia Explorer</0> som har skapats som öppen källkod av en utvecklare."
+msgid "*Want to explore Heather’s blocks further? Check out <0>Heather Explorer</0> built by an open source developer."
+msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 msgid "+ Add New Plot NFT"
@@ -60,8 +60,8 @@ msgstr ""
 
 #: src/electron/main.tsx:431
 #: src/electron/main.tsx:518
-msgid "About Chia Blockchain"
-msgstr "Om Chia Blockchain"
+msgid "About Heather Blockchain"
+msgstr "Om Heather Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -251,7 +251,11 @@ msgstr "VDF-iterationer för block"
 
 #: src/components/block/Block.jsx:337
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Block vid höjd {0} i Chia-blockkedjan"
+msgstr ""
+
+#: src/components/block/Block.jsx:337
+#~ msgid "Block at height {0} in the Heather blockchain"
+#~ msgstr "Block vid höjd {0} i Heather-blockkedjan"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -307,7 +311,7 @@ msgstr "Kan säkerhetskopieras till minnesfras"
 #: src/components/farm/FarmManageFarmingRewards.tsx:200
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:128
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:87
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:85
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:30
 #: src/components/selectKey/SelectKey.tsx:138
 #: src/components/settings/ChangePassphrasePrompt.tsx:240
@@ -356,15 +360,15 @@ msgstr "Chatta på KeyBase"
 
 #: src/electron/main.tsx:428
 msgid "Chia"
-msgstr "Chia"
+msgstr ""
 
 #: src/electron/main.tsx:367
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchains wiki"
+msgstr ""
 
 #: src/components/wallet/standard/WalletStandard.tsx:642
 msgid "Chia Wallet"
-msgstr "Chia-plånbok"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 msgid "Choose Number of Plots"
@@ -374,7 +378,7 @@ msgstr "Välj antal plottar"
 msgid "Choose Plot Size"
 msgstr "Välj plottstorlek"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:105
+#: src/components/plot/add/PlotAddChoosePlotter.tsx:94
 msgid "Choose Plotter"
 msgstr ""
 
@@ -467,7 +471,7 @@ msgstr "Anslut"
 msgid "Connect to other peers"
 msgstr "Anslut till andra peer-datorer"
 
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:116
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:114
 msgid "Connect to pool"
 msgstr "Anslut till poolen"
 
@@ -723,9 +727,13 @@ msgstr ""
 #~ msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
 #~ msgstr "Om du tar bort nyckeln kommer den att permanent tas bort från datorn. Se till att du har säkerhetskopierat den. Är det säkert att du vill fortsätta?"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:107
+#: src/components/plot/add/PlotAddChoosePlotter.tsx:96
 msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
 msgstr ""
+
+#: src/components/plot/add/PlotAddChoosePlotter.tsx:107
+#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Heather Proof of Space plotter. If unsure, use the default Heather Proof of Space plotter."
+#~ msgstr ""
 
 #: src/electron/main.tsx:313
 msgid "Developer"
@@ -825,10 +833,10 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Chia-plånbok."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Heather wallet."
+msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Heather-plånbok."
 
-#: src/components/settings/RemovePassphrasePrompt.tsx:115
+#: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
 msgstr ""
 
@@ -953,7 +961,7 @@ msgstr "Odlingsstatus"
 
 #: src/components/core/components/Fee/Fee.tsx:48
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:154
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:147
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:145
 #: src/components/pool/PoolInfo.tsx:17
 #: src/components/wallet/WalletHistory.tsx:66
 #: src/components/wallet/create/createExistingColouredCoin.jsx:123
@@ -1062,6 +1070,18 @@ msgstr "Huvudhash"
 #: src/components/block/Block.jsx:186
 msgid "Header hash"
 msgstr "Huvudhash"
+
+#: src/electron/main.tsx:428
+#~ msgid "Heather"
+#~ msgstr "Heather"
+
+#: src/electron/main.tsx:367
+#~ msgid "Heather Blockchain Wiki"
+#~ msgstr "Heather Blockchains wiki"
+
+#: src/components/wallet/standard/WalletStandard.tsx:642
+#~ msgid "Heather Wallet"
+#~ msgstr "Heather-plånbok"
 
 #: src/components/block/Block.jsx:202
 #: src/components/fullNode/FullNode.jsx:81
@@ -1509,11 +1529,11 @@ msgstr "Endast en säkerhetskopieringsfil är tillåten."
 msgid "Outgoing"
 msgstr "Utgående"
 
-#: src/components/app/AppKeyringMigrator.tsx:129
-#: src/components/app/AppKeyringMigrator.tsx:130
-#: src/components/app/AppPassPrompt.tsx:221
-#: src/components/settings/RemovePassphrasePrompt.tsx:123
-#: src/components/settings/SetPassphrasePrompt.tsx:142
+#: src/components/app/AppKeyringMigrator.tsx:135
+#: src/components/app/AppKeyringMigrator.tsx:136
+#: src/components/app/AppPassPrompt.tsx:225
+#: src/components/settings/RemovePassphrasePrompt.tsx:126
+#: src/components/settings/SetPassphrasePrompt.tsx:155
 msgid "Passphrase"
 msgstr ""
 
@@ -1533,8 +1553,8 @@ msgstr ""
 msgid "Passphrase Settings"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:149
-#: src/components/settings/RemovePassphrasePrompt.tsx:64
+#: src/components/app/AppPassPrompt.tsx:152
+#: src/components/settings/RemovePassphrasePrompt.tsx:67
 msgid "Passphrase is incorrect"
 msgstr ""
 
@@ -1668,9 +1688,9 @@ msgstr "Ange en giltig publik nyckel"
 msgid "Please enter your current passphrase, and a new passphrase"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:182
-#: src/components/app/AppPassPrompt.tsx:198
-#: src/components/settings/RemovePassphrasePrompt.tsx:47
+#: src/components/app/AppPassPrompt.tsx:185
+#: src/components/app/AppPassPrompt.tsx:201
+#: src/components/settings/RemovePassphrasePrompt.tsx:50
 msgid "Please enter your passphrase"
 msgstr ""
 
@@ -1789,10 +1809,10 @@ msgid "Plots Passed Filter"
 msgstr "Plottar som passerat filtret"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Chia. <0>Läs mer</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Heather. <0>Learn more</0>"
+msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Heather. <0>Läs mer</0>"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:118
+#: src/components/plot/add/PlotAddChoosePlotter.tsx:107
 msgid "Plotter"
 msgstr ""
 
@@ -2188,7 +2208,7 @@ msgstr "Vald återställningsfil:"
 msgid "Self Pooling"
 msgstr "Självpoolning"
 
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:103
 msgid "Self pool. When you win a block you will earn XCH rewards."
 msgstr "Självpoolning. När du vinner ett block tjänar du XCH-belöningar."
 
@@ -2356,10 +2376,10 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Heather blockchain"
+#~ msgstr "Sub Block at height {0} in the Heather blockchain"
 
-#: src/components/app/AppPassPrompt.tsx:199
+#: src/components/app/AppPassPrompt.tsx:202
 #: src/components/wallet/did/WalletDID.tsx:889
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
@@ -2515,8 +2535,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Denna funktion kan bara användas från GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Detta är den mängd Chia du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Chia som du just spenderat men som ännu inte finns i blockkedjan."
+msgid "This is the amount of Heather that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Heather that you have just spent but is not yet in the blockchain."
+msgstr "Detta är den mängd Heather du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Heather som du just spenderat men som ännu inte finns i blockkedjan."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2581,8 +2601,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Denna affärstransaktion lades till i blockkedjan vid denna blockhöjd"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Denna version av Chia är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
+msgid "This version of Heather is no longer compatible with the blockchain and can not safely farm."
+msgstr "Denna version av Heather är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2611,7 +2631,7 @@ msgid "Total Balance"
 msgstr "Totalt saldo"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#~ msgid "Total Heather Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2728,7 +2748,7 @@ msgstr "VDF-underslot-iterationer"
 msgid "Value seems high"
 msgstr "Värdet verkar högt"
 
-#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:156
+#: src/components/plotNFT/select/PlotNFTSelectBase.tsx:154
 msgid "Verify Pool Details"
 msgstr "Verifiera poolinformation"
 
@@ -2832,8 +2852,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Vill du gå med i en pool? Skapa en plot-NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vill du tjäna mer Chia? Lägg till fler plottar till din odling."
+msgid "Want to earn more Heather? Add more plots to your farm."
+msgstr "Vill du tjäna mer Heather? Lägg till fler plottar till din odling."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2865,8 +2885,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Vikt är den sammanlagda svårighetsgraden för alla underblock upp till och inklusive detta"
 
 #: src/components/selectKey/SelectKey.tsx:183
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Välkommen till Chia. Logga in med en existerande nyckel, eller skapa en ny nyckel."
+msgid "Welcome to Heather. Please log in with an existing key, or create a new key."
+msgstr "Välkommen till Heather. Logga in med en existerande nyckel, eller skapa en ny nyckel."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2942,8 +2962,8 @@ msgid "You need to claim your rewards first"
 msgstr "Du måste först begära in dina belöningar"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Heather application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Heather application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2998,9 +3018,12 @@ msgid "Your keys need to be migrated to a new keyring that is secured by a maste
 msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:177
+msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgstr ""
+
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Heather will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:80
@@ -3053,8 +3076,8 @@ msgid "syncing"
 msgstr "synkar"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:89
-msgid "thirdparty.plotter.disclaimer"
-msgstr ""
+#~ msgid "thirdparty.plotter.disclaimer"
+#~ msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:48
 msgid "{0, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
@@ -3082,8 +3105,8 @@ msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} blockbelöningar"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Totalt antal Chia som odlats"
+msgid "{currencyCode} Total Heather Farmed"
+msgstr "{currencyCode} Totalt antal Heather som odlats"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
@@ -3093,6 +3116,6 @@ msgstr "{currencyCode} Transaktionsavgifter för användare"
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr "{mojo, plural, one {mojo} other {mojo}}"
 
-#: src/components/plot/add/PlotAddChoosePlotter.tsx:133
+#: src/components/plot/add/PlotAddChoosePlotter.tsx:122
 msgid "{warning}"
 msgstr ""

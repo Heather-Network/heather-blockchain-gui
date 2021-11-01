@@ -367,7 +367,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Chia Blockchain Wiki' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/wiki',
+                'https://github.com/Chia-Network/heather-blockchain/wiki',
               );
             },
           },
@@ -375,7 +375,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/wiki/FAQ',
+                'https://github.com/Chia-Network/heather-blockchain/wiki/FAQ',
               );
             },
           },
@@ -383,7 +383,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Release Notes' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/releases',
+                'https://github.com/Chia-Network/heather-blockchain/releases',
               );
             },
           },
@@ -391,7 +391,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/blob/master/CONTRIBUTING.md',
+                'https://github.com/Chia-Network/heather-blockchain/blob/master/CONTRIBUTING.md',
               );
             },
           },
@@ -402,7 +402,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/issues',
+                'https://github.com/Chia-Network/heather-blockchain/issues',
               );
             },
           },
@@ -428,7 +428,7 @@ if (!handleSquirrelEvent()) {
         label: i18n._(/* i18n */ { id: 'Chia' }),
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'About Heather Blockchain' }),
             click: () => {
               openAbout();
             },
@@ -515,7 +515,7 @@ if (!handleSquirrelEvent()) {
           type: 'separator',
         },
         {
-          label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Heather Blockchain' }),
           click() {
             openAbout();
           },

@@ -43,7 +43,7 @@ export default function LocaleToggle(props: Props) {
     handleClose();
 
     openExternal(
-      'https://github.com/Heather-Network/chia-blockchain-gui/tree/main/src/locales/README.md',
+      'https://github.com/Heather-Network/heather-blockchain-gui/tree/main/src/locales/README.md',
     );
   }
 

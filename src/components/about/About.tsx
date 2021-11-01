@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: silver;
   }
 
-  body { 
+  body {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) 2021 Chia Network</div>
+        <div className="copyright">Copyright (c) 2021 Heather Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (

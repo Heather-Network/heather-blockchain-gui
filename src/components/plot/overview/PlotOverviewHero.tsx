@@ -34,11 +34,11 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               {
-                'Plots are allocated space on your hard drive used to farm and earn Chia. '
+                'Plots are allocated space on your hard drive used to farm and earn Heather. '
               }
               <Link
                 target="_blank"
-                href="https://github.com/Heather-Network/chia-blockchain/wiki/Network-Architecture"
+                href="https://github.com/Heather-Network/heather-blockchain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

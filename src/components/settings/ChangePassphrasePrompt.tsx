@@ -148,12 +148,12 @@ export default function ChangePassphrasePrompt(props: Props) {
       'Escape' : handleCancel,
     };
     const handler: () => Promise<void> | undefined = keyHandlerMapping[e.key];
-  
+
     if (handler) {
       // Disable default event handling to avoid navigation updates
       e.preventDefault();
       e.stopPropagation();
-  
+
       await handler();
     }
   }
@@ -224,7 +224,7 @@ export default function ChangePassphrasePrompt(props: Props) {
               label={t`Save passphrase`}
               style={{ marginRight: '8px' }}
             />
-            <Tooltip title={t`Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase.`}>
+            <Tooltip title={t`Your passphrase can be stored in your system's secure credential store. Heather will be able to access your keys without prompting for your passphrase.`}>
               <HelpIcon style={{ color: '#c8c8c8', fontSize: 12 }} />
             </Tooltip>
           </Box>

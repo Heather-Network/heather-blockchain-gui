@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Chia {
+class Heather {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,7 +73,7 @@ class Chia {
   }
 }
 
-export const chia_formatter = (value, unit) => new Chia(value, unit);
+export const chia_formatter = (value, unit) => new Heather(value, unit);
 
 chia_formatter.convert = convert;
 chia_formatter.setDisplay = units.setDisplay;

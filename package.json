@@ -1,7 +1,7 @@
 {
-    "name": "chia-blockchain",
+    "name": "heather-blockchain",
     "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-    "description": "GUI for Chia Blockchain",
+    "description": "GUI for Heather Blockchain",
     "productName": "Chia Blockchain",
     "private": true,
     "homepage": "./",
